@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <title>Boardgame Links</title>
+        <style>
+            body{
+                background:#1b1f24;
+                color:#fff;
+                font-family:Arial;
+                padding:40px;
+            }
+            .table{
+                border-radius:10px;
+                overflow:hidden;
+                border-collapse:collapse;
+                width:100%;
+            }
+            td,th{
+                border:1px solid #ddd;
+                padding:10px;
+            }            
+            tbody tr{
+                transition:all .2s;
+            }
+            tbody tr:hover{
+                font-weight: bold;
+            }
+            .navbar{
+                margin-bottom:30px;
+            }
+            .btn{
+                min-width:120px;
+            }
+            input{
+                box-shadow:none !important;
+            }
+            footer{
+                opacity:.7;
+                padding:40px;
+            }
+            a{
+                margin-right:15px;
+            }
+            input{
+                padding:8px;
+                width:300px;
+                margin-bottom:20px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+    <nav class="navbar navbar-dark bg-dark shadow">
+        <div class="container-fluid">
+            <span class="navbar-brand">
+                <i class="bi bi-controller"></i>
+                Boardgame Links
+            </span>
+            <span class="text-light">
+                <span id="gameCount"></span> jogos
+            </span>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <input  id="search" class="form-control form-control-lg" placeholder="🔍 Procurar jogo">
+            </div>
+            <div class="col-md-6 text-end">
+                <button class="btn btn-outline-primary"onclick="window.scrollTo({top:0,behavior:'smooth'})">
+                    <i class="bi bi-arrow-up"></i>Topo
+                </button>
+            </div>
+        </div>
+    </div>
+    <table class="table table-dark table-hover table-striped align-middle">
+        <thead>
+            <tr>
+                <th>Jogo</th>
+                <th>Lojas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>5 minutes dungeon</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=5%20minutes%20dungeon&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=5%20minutes%20dungeon">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Castle Combo</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Castle%20Combo&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Castle%20Combo">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Dewan</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Dewan&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Dewan">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Ethnos</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Ethnos&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Ethnos">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Five Tribes: The Djinns of Naqala</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Five%20Tribes%3A%20The%20Djinns%20of%20Naqala&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Five%20Tribes%3A%20The%20Djinns%20of%20Naqala">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Friday</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Friday&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Friday">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Fruit Fight</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Fruit%20Fight&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Fruit%20Fight">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Jekyll & Hyde vs Scotland Yard</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Jekyll%20%26%20Hyde%20vs%20Scotland%20Yard&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Jekyll%20%26%20Hyde%20vs%20Scotland%20Yard">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Kabuto Sumo</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Kabuto%20Sumo&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Kabuto%20Sumo">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Kelp</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Kelp&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Kelp">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Kingdom Legacy: Feudal Kingdom</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Kingdom%20Legacy%3A%20Feudal%20Kingdom&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Kingdom%20Legacy%3A%20Feudal%20Kingdom">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>La cuenta</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=La%20cuenta&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=La%20cuenta">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Marvel United</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Marvel%20United&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Marvel%20United">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Mountain Goats</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Mountain%20Goats&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Mountain%20Goats">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Mr Jack Pocket</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Mr%20Jack%20Pocket&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Mr%20Jack%20Pocket">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>O Rei Morreu</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=O%20Rei%20Morreu&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=O%20Rei%20Morreu">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Pili pili</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Pili%20pili&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Pili%20pili">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Sail</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Sail&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Sail">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Sea Scroll</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Sea%20Scroll&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Sea%20Scroll">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Stonespine Architects</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Stonespine%20Architects&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Stonespine%20Architects">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Timber Town</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Timber%20Town&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Timber%20Town">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Toy Battle</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Toy%20Battle&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Toy%20Battle">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>wingspan Pocket</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=wingspan%20Pocket&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=wingspan%20Pocket">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Spooktacular</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Spooktacular&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Spooktacular">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr><tr><td>Got Five</td><td>
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://zatu.com/search?options%5Bprefix%5D=last&q=Got%20Five&sort_by=relevance&filter.v.availability=1">
+                    Zatu&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+             
+                <a class="btn btn-sm btn-primary me-2" target="_blank" href="https://www.philibertnet.com/en/search?search_query=Got%20Five">
+                    Philibert&nbsp;<i class="bi bi-box-arrow-up-right"></i>
+                </a>
+            </td></tr>
+        </tbody>
+    </table>
+        <script>
+            const input = document.getElementById('search');
+            const rows = Array.from(document.querySelectorAll('tbody tr'));
+            const gameCount = document.getElementById('gameCount');
+
+            const total = rows.length;
+
+            function updateCount() {
+                const visible = rows.filter(r => r.style.display !== 'none').length;
+                gameCount.textContent = visible + " / " + total;
+            }
+
+            input.addEventListener('input', () => {
+                const text = input.value.toLowerCase();
+                rows.forEach(row => {
+                    row.style.display =
+                        row.innerText.toLowerCase().includes(text)
+                            ? ''
+                            : 'none';
+                });
+                updateCount();
+            });
+            updateCount();
+        </script>
+    </body>
+</html>
